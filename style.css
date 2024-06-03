@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bs-primary: #FF3147;
+    --bs-primary-hover: #e3172c;
+    --bs-primary-rgb: 255, 49, 71;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+p, .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.cormorant-sc-light {
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+}
+
+.cormorant-sc-regular {
+    font-family: "Cormorant SC", serif;
+    font-weight: 400;
+}
+
+.cormorant-sc-medium {
+    font-family: "Cormorant SC", serif;
+    font-weight: 500;
+}
+
+.cormorant-sc-semibold {
+    font-family: "Cormorant SC", serif;
+    font-weight: 600;
+}
+
+h1, h2, .cormorant-sc-bold {
+    font-family: "Cormorant SC", serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 45px;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-bg);
+}
+
+.btn-primary:hover {
+    background-color: var(--bs-primary-hover);
+    border-color: var(--bs-primary);
+}
+
+.leading-title {
+    font-size: 30px;
+}
+.leading-subtitle {
+    font-size: 24px;
+}
+
+.carousel-container {
+    overflow: auto;
+}
+.carousel-container .carousel-container-item, .carousel-container .carousel-item {
+    min-width: 370px !important;
+    width: 100%;
+    max-width: 370px;
+    position: relative;
+    margin-right: 0px;
+    display: block;
+    float: none;
+}
+
+.bg-lightgray {
+    background-color: #FAFAFA;
+}
+
+.bg-gray {
+    background-color: #F6F6F6;
+}
+.text-gray {
+    color: #616678;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.card > h3 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+figure .quotemarks {
+    top: -1rem;
+    left: -1rem;
+    z-index: -1;
+}
+
+.what-we-do-card {
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+}
+
+
+.carousel-container-item:hover .what-we-do-card {
+    display: block;
+    z-index: 1;
+}
+
+
+
+.animate-zoom:hover {
+    animation: elevateUp 0.3s forwards;
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@keyframes elevateUp {
+    from {
+        transform: scale(1,1);
+    }
+
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+
+.carousel-indicators-custom [data-bs-target] {
+    flex: inherit;
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-indent: 0px;
+    transition: none;
+    opacity: 1;
+    border-top-width: 0px !important;
+    border-bottom-width: 0px !important;
+    display: block;
+}
+
+.carousel-indicators-custom {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.carousel-indicators-custom button[aria-current="true"], .carousel-indicators-custom button[aria-current="true"] > .card-header {
+    background-color: var(--bs-primary);
+    color: white;;
+}
+
+.carousel-indicators-custom button {
+    text-align: left;
+}
+
+
+.carousel-indicators-noeffect {
+    margin-left: auto;
+    position: relative;
+}
+
+.services-radio-input:checked {
+    background-color: white;
+    border-color: var(--bs-primary);
+}
+
+.radio-indicator {
+    width: 1rem;
+    height: 1rem;
+    content: " ";
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-indicator .dot {
+    content: " ";
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.radio-indicator.active {
+    border: 1px solid var(--bs-primary);
+}
+.radio-indicator.active .dot {
+    border: 1px solid var(--bs-primary);
+    background-color: var(--bs-primary);
+}
